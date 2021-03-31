@@ -1,0 +1,26 @@
+{
+  "name": "leonemma_theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "tailwind": "postcss index.css -o style.css -w --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilnoes/leonemma_theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilnoes/leonemma_theme/issues"
+  },
+  "homepage": "https://github.com/lilnoes/leonemma_theme#readme"
+}
