@@ -1,17 +1,15 @@
 {
   "name": "leonemma_theme",
   "version": "1.0.0",
-  "description": "",
   "main": "postcss.config.js",
   "dependencies": {
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.9",
     "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.4"
+    "tailwindcss": "^2.1.2"
   },
-  "devDependencies": {},
   "scripts": {
-    "tailwind": "postcss index.css -o style.css -w --verbose"
+    "tailwind": "TAILWIND_MODE=watch NODE_ENV=development postcss index.css -o ./style.css -w --verbose"
   },
   "repository": {
     "type": "git",
@@ -22,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/lilnoes/leonemma_theme/issues"
   },
-  "homepage": "https://github.com/lilnoes/leonemma_theme#readme"
+  "homepage": "https://github.com/lilnoes/leonemma_theme#readme",
+  "description": ""
 }
