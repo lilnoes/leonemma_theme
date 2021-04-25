@@ -20,5 +20,7 @@
 <div class="p-2 h-8">
     <p>Made with ❤️ by Leon</p>
 </div>
+
+<?php wp_footer(); ?>
 </body>
 </html>

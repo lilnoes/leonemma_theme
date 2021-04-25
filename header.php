@@ -6,7 +6,7 @@
 </head>
 
 
-<body class="">
+<body class="px-1 bg-gray-100">
 
 <div class="flex flex-row justify-start h-10">
     <div class="text-blue-800 text-2xl font-bold">Tech Trips</div>

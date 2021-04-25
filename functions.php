@@ -11,7 +11,8 @@ function leon_add_menus(){
 }
 
 function leon_add_style(){
-    wp_enqueue_style( "style", get_template_directory_uri()."/style.css", "", rand());
+    wp_enqueue_style( "mycss", get_template_directory_uri()."/style.css", "", rand());
+    wp_enqueue_script( "myjs", get_template_directory_uri()."/assets/js/home.js", null, rand(), true );
 }
 
 add_action( "wp_enqueue_scripts", "leon_add_style" );
